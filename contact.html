@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/23031be945.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Contact Page</title>
+</head>
+
+<body>
+    <section class="contactContent">
+
+        <div class="contactNavigation">
+
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul>
+                    <li><a class="active" href="./index.html">Home</a></li>
+                    <li><a href="./gallery.html">Gallery</a></li>
+                    <li><a href="./contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="contactPage">
+            <h1 class="contactUs">Contact Us</h1>
+            <form class="contactForm" action="#">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name...">
+
+                <label for="email">Email <email class=""></email></label>
+                <input type="email" id="email" name="email" placeholder="Your email...">
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Hello..." required
+                    maxlength="255"></textarea>
+
+                <input type="submit" value="Message">
+            </form>
+        </div>
+    </section>
+  
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

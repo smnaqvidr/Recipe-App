@@ -1,0 +1,157 @@
+
+.contactContent{
+ background-image: url(../assets/home-page.jpg);
+  height: auto;
+  width: 100vw;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 62px;
+}
+
+  .contactNavigation li a:hover,
+  .contactNavigation li a:focus{
+    border-bottom: 2px solid $wheat; 
+  border-radius: 0px; 
+  
+}
+
+  .contactNavigation nav{
+    position: absolute;
+    background: transparent;
+    height: 80px;
+    width: 100%;
+    ul{
+  text-align: center;
+  li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 15px 5px;
+    a{
+    border-radius: 50px;
+    color: $white;
+    font-size: 25px;
+    padding: 0 40px;
+    text-decoration: none;
+    padding-top: 10px;
+  }
+  }
+   
+  }
+  }
+  
+  label.logo{
+    color: $white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+ 
+
+  .checkbtn{
+    font-size: 30px;
+    color: $white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+
+
+// ------------------------------
+
+.contactPage {
+    background-color: $darkgreen;
+    color: $white;
+    max-width: 700px;
+    margin: 0px auto;
+    padding: 40px 80px;
+    box-shadow: -12px 12px 8px 0 rgba(0, 0, 0, 0.5);
+    h1{
+      color:$wheat;
+      font-size: 60px;
+    }
+}
+
+.contactUs {
+    color: $white;
+    text-align: center;
+    padding-top: 55px;
+    font-size: 65px;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    // font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    label,
+    input[type="submit"] {
+    margin-top: 25px;
+    margin-bottom: 10px;
+   
+}
+input,
+textarea {
+    border: 3px solid $white;
+    background-color: #071a0e;
+    color: white;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+textarea {
+    resize: none;
+}
+input:invalid,
+textarea:invalid {
+    border-color: $white;
+}
+input[type="submit"] {
+    background-color: $olive;
+    padding: 15px 30px;
+    color: #071a0e;
+    font-family: 'Merienda One', cursive;
+    align-self: center;
+    cursor: pointer;
+}
+input::placeholder,
+textarea::placeholder {
+    color: $grey;
+}
+}
+footer{
+  position: fixed;
+}
+.junoFooter ul li{
+  text-align: center;
+  
+ 
+  
+  a{
+    color: $white;
+    font-size: 22px;
+    background-color: $darkgreen;
+  }
+}
+
+.junoFooter ul li a:hover,
+ .junoFooter ul li:focus{
+
+    color: $white;
+    background-color: $darkgreen;
+
+ }
+
+
+
+
+
+
+

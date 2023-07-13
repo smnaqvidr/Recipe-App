@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/23031be945.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Recipe App</title>
+
+</head>
+
+<body>
+    <section class="navigation">
+
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="container initial">
+            <h1 class="headerText">Recipe App</h1>
+            <form id="form">
+                <input name="recipeName" type="text" id="text" placeholder="Search Your Recipe..." value="">
+                <button>Search</button>
+            </form>
+        </div>
+        <div class="searchResult">
+                <ul class="recipes"></ul>
+            </div>
+    </section>
+
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,238 @@
+ @media (max-width: 870px) {
+
+     .checkbtn{
+      display: block;
+    }
+    .navigation nav ul,
+    .contactNavigation nav ul,
+    .galleryPage nav ul{
+      position: fixed;
+      width: 100%;
+   
+      background: $darkgreen;
+      top: 200px;
+      right: -100%;
+      text-align: center;
+    
+      transition: all .5s;
+      z-index: 9999;
+    }
+    .navigation nav ul li,
+    .contactNavigation nav ul li,
+    .galleryPage nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    .navigation nav ul li a,
+    .contactNavigation nav ul li a
+    .galleryPage nav ul li a{
+      font-size: 25px;
+      color: white;
+    }
+    a:hover,a.active{
+      background: none;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+  
+  label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+
+}
+
+@media (max-width: 868px){
+.navigation nav ul{
+  top: 315px;
+}
+}
+
+@media (max-width: 760px){
+    form{
+        width: 400px;
+    }
+    .container h1{
+        font-size: 60px;
+    }
+    button{
+        width: 90px;
+    }
+    .galleryPage h1{
+      padding-top: 45px;
+      display: block;
+    }
+    .galleryBody ul li {
+  margin: 10px;
+  width: calc(100% - 20px);
+}
+
+.galleryPage nav ul{
+    padding-top: 70px;
+    }
+   
+}
+
+ @media (max-width: 630px){
+   .searchResult .recipes ul{
+     display: block;
+   }
+
+   .searchResult .recipes li {
+  background-color: wheat;
+  border-radius: 20px;
+  margin: 65px 20px 20px 20px;
+  width: calc((100% / 1) - 40px);
+}
+.navigation nav ul, .contactNavigation nav ul, .galleryPage nav ul{
+  top:210px;
+}
+.container h1{
+  padding-top:1px;
+}
+.galleryBody h1{
+  padding: top 35px;
+}
+.galleryPage nav ul {
+  padding-top: 65px;
+}
+.galleryBody h1 {
+  padding-top: 12px;
+}
+ }
+
+    @media (max-width: 820px){
+      .galleryBody h1{
+      padding-top: 50px;
+      }
+    }
+
+@media (max-width: 458px){
+
+    .navigation nav ul,
+    .contactNavigation nav ul,
+    .galleryPage nav ul{
+      top: 300px;
+}
+.navigation nav ul li a,
+.contactNavigation nav ul li a,
+.galleryPage nav ul li a {
+  font-size: 22px;
+  color: white;
+}
+}
+
+@media (max-width: 500px){
+  #name,
+#email,
+#message,
+label,
+textarea,
+.contactForm{
+  font-size: 22px;
+  max-width: 110%;
+}
+.contactContent .contactForm form input{
+  max-width: 60%;
+
+}
+
+}
+
+@media (max-width: 440px){
+  #name,
+#email,
+#message,
+label,
+textarea,
+.contactForm{
+  font-size: 22px;
+  max-width: 110%;
+}
+.contactContent .contactForm form input{
+  max-width: 60%;
+
+}
+
+}
+
+@media (max-width: 400px){
+ .navigation form{
+      width: 370px;
+      padding-left:  25px;
+      
+    }
+    .navigation nav ul, .contactNavigation nav ul, .galleryPage nav ul {
+    top: 230px;
+}
+#name,
+#email,
+#message,
+label,
+textarea,
+.contactForm{
+  font-size: 22px;
+  max-width: 110%;
+  padding-bottom: 65px;
+}
+.galleryBody{
+  padding-bottom: 1px;
+}
+.galleryPage nav ul {
+  padding-top: 15px;
+}
+.contactContent .contactForm form input{
+  max-width: 60%;
+
+}
+
+
+.contactPage h1 {
+  color: wheat;
+  font-size: 50px;
+}
+}
+
+@media (max-width: 380px){
+  .headerText{
+    font-size: 45px;
+
+    }
+  .navigation button{
+    width:80px;
+  }
+
+  .navigation nav ul, .contactNavigation nav ul{
+  top: 300px;
+}
+
+.searchResult {
+  padding-bottom: 45px;
+}
+
+ .galleryPage nav ul {
+  top: 240px;
+}
+  .navigation form{
+      width: 360px;
+      padding-left:  30px;
+
+      
+    }
+    .navigation form input{
+        font: size 20px;
+        
+      }
+      #name, #email, #message, label, textarea, .contactForm {
+ 
+  padding-bottom: 1px;
+}
+.contactPage {
+  padding-bottom: 60px;
+  }
+}
+
+
+
